@@ -1,0 +1,177 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .head-menu{
+        background-image: url(../images/bg_mv.jpg);
+        position: inherit;
+        display: inline-block;
+    }
+    
+    #viewport {
+        
+        overflow: auto;
+        
+    }
+    
+    
+    .head-nav-menu{
+        display: none;
+        background-color: #44433f;
+        padding: 0px 10px;
+        position: absolute;
+        right: 6%;
+        top: 85%;
+        
+    }
+        .head-nav-menu li{
+            display: block;
+            text-align: right;
+            float: none;
+            padding-left: 50%;
+        }
+            .service{
+                margin-left: 0px;
+                margin-right: 0px;
+            }
+                .service-info img{
+                    
+                }
+    .img-logo {
+        width: 50%;
+        height: auto;
+    }
+    
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .latest-title{
+            width: 100%;
+        }
+    .overlay-control {
+        width: 90%;
+        margin: auto;
+        margin-top: 15%;
+    }
+    
+   .copyright-right, .copyright-left{
+            float: none;
+            padding-bottom: 15px;
+            display: table;
+            margin: 0 auto;
+        }
+        
+    
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 800px) {
+    
+    .mDevices{
+        background-position: 40% 100%;
+        background-size: 150%;
+        background-repeat: no-repeat;
+        height: 550px;
+        
+    }
+    .mDevices-text{
+        width: 100%;
+        margin-left: 0%;
+        padding-top: 0px;
+    }   
+    .mDevices-text h3{
+        
+        margin: 20px 0;
+        text-align: center;
+    }
+    
+    
+    
+    .mDevices-text-ul{
+        margin-left: 45%;
+        padding-left: 0px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.overlay-control {
+        margin-top: 15%;
+    }
+    .btn {
+        
+        height: 65px;
+        width: 65px;
+    }
+    .mDevices{
+        background: none;
+        height: auto;
+       
+    }
+    .mDevices-text{
+        width: 100%;
+        margin-left: 0%;
+
+    }   
+    .mDevices-text h3, p{
+        text-align: center;
+    }
+    
+    .mDevices-text-ul{
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    
+                .copyright-info{
+                    float: none;
+                }
+        .copyright-right{
+            display: none;
+        }
+        .footer-copyright-alignment{
+            padding-top: 25px;
+        }
+        .footer-copyright {
+            height: 100px;
+        }
+    
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    
+    
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .head-nav-menu{
+        display: inline-block !important;
+    }
+    
+}
